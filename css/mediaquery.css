@@ -1,0 +1,62 @@
+@media screen and (min-width: 320px){
+    #services a{
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    #quote a{
+        display: inline-block;
+        margin-top: 10px;
+        width: 250px;
+    }
+
+    #mission .mgn{
+        margin-bottom: 40px;
+    }
+
+    #solutions .grid-container{
+        display: block;
+    }
+
+    /* #solutions .item1, .item2, .item3,
+    .item4, .item5, .item6, .item7, .item8{
+        width: auto;
+        height: 100%;
+    } */
+}
+
+@media screen and (min-width: 480px){
+    
+}
+
+@media screen and (min-width: 600px){
+    
+}
+
+@media screen and (min-width: 768px){
+    
+}
+
+@media screen and (min-width: 992px){
+    #about-us p{
+        text-align: left;
+    }
+
+    #about-us button{
+        text-align: left;
+    }
+
+    #quote a{
+        display: inline;
+    }
+
+    #solutions .grid-container{
+        display: grid;
+    }
+
+    
+}
+
+@media screen and (min-width: 1024px){
+    
+}

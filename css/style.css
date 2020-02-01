@@ -22,6 +22,12 @@ p{
 }
 
 /*Navbar*/
+
+nav img{
+    width: 180px;
+    height: 46px;
+}
+
 .nav-link{
     font-family: 'Hind Madurai', sans-serif;
     font-size: 13.5px;
@@ -71,6 +77,15 @@ p{
     background-color: white;
 }
 
+#intro .input-group{
+    width: 30%;
+}
+
+#intro input{
+    height: 50px; 
+    border: 0;
+}
+
 #intro .btn{
     padding: 0 20px 0 20px;
 }
@@ -96,6 +111,10 @@ p{
     border: 1px solid #00A1C6;
 }
 
+#about-us p{
+    margin-top: 50px;
+}
+
 /*Section*/
 .container{
     padding: 0 15px 0 15px;
@@ -118,6 +137,11 @@ p{
     text-align: center;
 }
 
+#what-we-do, #customers{
+    background-color: #F5FDFF; 
+    padding: 70px 0 60px 0;
+}
+
 /*Mission Section*/
 #mission{
   padding: 60px 0 40px 0;
@@ -131,6 +155,11 @@ p{
     font-family: 'Hind Madurai', sans-serif;
     font-weight: 600;
     font-size: 17px;
+}
+
+#mission .mission-content{
+    text-align: center;
+    margin-bottom: 130px;
 }
 
 /*Vision*/
@@ -160,7 +189,7 @@ p{
 } */
 
 
-/*What We Do Section*/
+/*Services*/
 #services-container {
     background: url(../img/services.png) no-repeat center center fixed;
     display: table;
@@ -197,20 +226,31 @@ p{
     text-decoration: none;
 }
 
-.section-content h4{
+/*What We Do Section*/
+
+#what-we-do .row{
+    margin-bottom: 30px;
+}
+
+#what-we-do img{
+    height:70px;
+    width:70px;
+}
+#what-we-do h4{
     font-size: 19px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.section-content .box{
+#what-we-do .box{
     padding: 20px 15px 5px 15px; 
     text-align: center; 
     background-color: white;  
     border-radius: 10px;
+    min-height: 220px;
 }
 
-.section-content .box:hover {
+#what-we-do .box:hover {
     transform: scale(1.1);
     transition: all .3s ease-in-out;
 }
@@ -256,6 +296,19 @@ p{
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
     border-top: 40px solid #fff;
+}
+
+/*Customers & Partners*/
+#partners {
+    padding-top: 60px; padding-bottom: 70px;
+}
+
+#partners .section-content{
+    margin-top: 40px;
+}
+
+#partners .item{
+    width: 150px;
 }
 
 /*Quote*/
